@@ -59,6 +59,24 @@
 		],
 		"description": "Add Container with Description to C4 diagram"
 	},
+	"C4_Microservice": {
+		"scope": "diagram",
+		"prefix": "Microservice",
+		"body": [
+			"Microservice(${1:alias}, \"${2:label}\", \"${3:technology}\")",
+			"$0"
+		],
+		"description": "Add Microservice to C4 diagram"
+	},
+	"C4_Microservice_Descr": {
+		"scope": "diagram",
+		"prefix": "Microservice with Description",
+		"body": [
+			"Microservice(${1:alias}, \"${2:label}\", \"${3:technology}\", \"${4:description}\")",
+			"$0"
+		],
+		"description": "Add Microservice with Description to C4 diagram"
+	},
 	"C4_Container_Boundary": {
 		"scope": "diagram",
 		"prefix": [
@@ -144,6 +162,19 @@
 			"}"
 		],
 		"description": "Add a System Boundary to C4 diagram"
+	},
+	"C4_Microservice_Boundary": {
+		"scope": "diagram",
+		"prefix": [
+			"Microservice Boundary",
+			"Boundary for Microservice Perimeter"
+		],
+		"body": [
+			"Microservice_Boundary(${1:alias}, \"${2:label}\"){",
+			"\t$0",
+			"}"
+		],
+		"description": "Add a Microservice Boundary to C4 diagram"
 	},
 	"C4_Enterprise_Boundary": {
 		"scope": "diagram",

@@ -1,3 +1,17 @@
+# PlantUml skinparam values
+artifact, actor, folder, package, rectangle, node, frame, cloud, database, queue, storage, agent, usecase, component, boundary, control, entity, interface
+
+# Diagram Samples
+https://real-world-plantuml.com/
+
+# C4 Cheatsheet
+
+http://www.codingthearchitecture.com/2017/04/27/visualising_and_documenting_software_architecture_cheat_sheets.html
+
+# 4+1 Model
+
+https://en.wikipedia.org/wiki/4%2B1_architectural_view_model
+
 # Layout Options
 
 PlantUML uses [Graphviz](https://www.graphviz.org/) for his graph visualization. Thus the rendering itself is done automatically for you - that it one of the biggest advantages of using PlantUML.
