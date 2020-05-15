@@ -67,7 +67,7 @@ skinparam actor<<person>> {
     BorderColor #073B6F
 }
 
-!define SPRITESPATH /C4-lib/sprites
+!define SPRITESPATH https://raw.githubusercontent.com/jozbone/plantuml-icon-font-sprites/master/font-awesome-5
 !include SPRITESPATH/user.puml
 
 !define ICON_SCALE 1
