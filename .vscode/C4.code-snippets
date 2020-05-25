@@ -59,6 +59,24 @@
 		],
 		"description": "Add Container with Description to C4 diagram"
 	},
+	"C4_ContainerQueue": {
+		"scope": "diagram",
+		"prefix": "ContainerQueue",
+		"body": [
+			"ContainerQueue(${1:alias}, \"${2:label}\", \"${3:technology}\")",
+			"$0"
+		],
+		"description": "Add Container queue to C4 diagram"
+	},
+	"C4_ContainerQueue_Descr": {
+		"scope": "diagram",
+		"prefix": "Container Queue with Description",
+		"body": [
+			"ContainerQueue(${1:alias}, \"${2:label}\", \"${3:technology}\", \"${4:description}\")",
+			"$0"
+		],
+		"description": "Add Container Queue with Description to C4 diagram"
+	},
 	"C4_Microservice": {
 		"scope": "diagram",
 		"prefix": "Microservice",
@@ -107,6 +125,24 @@
 			"$0"
 		],
 		"description": "Add Component with Description to C4 diagram"
+	},
+	"C4_ComponentQueue": {
+		"scope": "diagram",
+		"prefix": "ComponentQueue",
+		"body": [
+			"ComponentQueue(${1:alias}, \"${2:label}\", \"${3:technology}\")",
+			"$0"
+		],
+		"description": "Add Component Queue to C4 diagram"
+	},
+	"C4_ComponentQueue_Descr": {
+		"scope": "diagram",
+		"prefix": "Component Queue with Description",
+		"body": [
+			"ComponentQueue(${1:alias}, \"${2:label}\", \"${3:technology}\", \"${4:description}\")",
+			"$0"
+		],
+		"description": "Add Component Queue with Description to C4 diagram"
 	},
 	"C4_System": {
 		"scope": "diagram",
